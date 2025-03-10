@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1>Measurement Converter</h1>
+      <h1>Number Input</h1>
       
       <div className="tabs">
         <button 
@@ -22,6 +22,14 @@ function App() {
           onClick={() => setActiveTab('uom')}
         >
           Units of Measurement
+        </button>
+        <button 
+        >
+          Double
+        </button>
+        <button 
+        >
+          Integer
         </button>
       </div>
       

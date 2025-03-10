@@ -73,13 +73,13 @@ button:focus-visible {
   margin-bottom: 20px;
 }
 
-.select-container {
+.select-container, .align-container, .decimalGroupSeparator-container {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
 
-.currency-select, .country-select {
+.currency-select, .country-select, .align-select, .decimalGroupSeparator-select {
   padding: 8px;
   border-radius: 4px;
   border: 1px solid #ccc;
